@@ -2,6 +2,9 @@
   "name": "parker-lillywhite-react-portfolio",
   "version": "1.0.0",
   "description": "Personal portfolio app built in react",
+  "engines":{
+    "node": "14.17.6"
+  },
   "scripts": {
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",

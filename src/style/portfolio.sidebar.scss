@@ -1,0 +1,42 @@
+.portfolio-sidebar-list-wrapper {
+    .portfolio-item-thumb{
+        padding: 21px;
+
+        .portfolio-thumb-image img{
+            width: 100%
+        }
+
+        .title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: $offwhite;
+            font-size: 1em;
+            padding: 10px;
+
+        }
+
+        .portfolio-details{
+            display: grid;
+            grid-template-columns: 5fr 1fr 1fr;
+            
+            
+            .icon{
+                
+                color: $offwhite;
+                
+                cursor: pointer;
+                transition: 0.5s;
+                font-size: 1.5em;
+                margin-left: 50px;
+                margin-top: 15px;
+                padding: 10px;
+                
+
+                &:hover{
+                    color: $teal;
+                }
+            }
+        }
+    }
+}
